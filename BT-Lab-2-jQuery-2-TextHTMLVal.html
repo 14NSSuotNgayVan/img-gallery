@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#front").click(function(){
+                $("#p1").text("Lập trình viên Front-End")
+            })
+            $("#back").click(function(){
+                $("#p2").html("<b>Lập trình viên Back-End<b>")
+            })
+            $("#full").click(function(){
+                $("#inp").val("Lập trình viên Full Stack")
+            })
+        })
+    </script>
+</head>
+<body>
+    <p id="p1">This is some text </p>
+    <p id="p2">This is some text </p>
+    <p>In put field :<input type= "text" id ="inp" value ="thầy Cường bán hải sản"/> </p>
+    <button id="front">Front-End</button>
+    <button id="back">Back-End</button>
+    <button id="full">Full-Stack</button>
+</body>
+</html>
